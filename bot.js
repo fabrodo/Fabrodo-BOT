@@ -22,6 +22,19 @@ client.on('message', msg => {
     msg.reply('Aleyküm Selam :raised_hand:');
   }
  
+ client.on('message', msg => {
+  if (msg.content.toLowerCase() === 'Seni kim tasarladı') {
+    msg.reply('Fabrodo#5516 Beni Tasarladı Onu Arkadaş Olarak Ekleyebilirsin!');
+  }
+ 
+client.on('message', msg => {
+  if (msg.content.toLowerCase() === 'amk') {
+    msg.reply('Aaaa Çok Ayıp!!');
+  }
+  
+  client.user.setStatus('dnd')
+  client.user.setGame('Beni Fabrodo Yarattı :)', 'https://www.twitch.tv/jahrein');
+  
 });
  
 client.login(process.env.BOT_TOKEN);
