@@ -11,4 +11,19 @@ client.on('message', msg => {
   }
 });
 
+client.on('message', msg => {
+  if (msg.content.toLowerCase() === 'sa') {
+    msg.reply('Aleyküm Selam :raised_hand:');
+  }
+
+  client.on('message', msg => {
+  if (msg.content.toLowerCase() === 'selamun aleyküm') {
+    msg.reply('Aleyküm Selam :raised_hand:');
+  }
+ 
+client.on('message', msg => {
+  if (msg.content.toLowerCase() === 'sea') {
+    msg.reply('Aleyküm Selam :raised_hand:');
+  }
+  
 client.login(process.env.BOT_TOKEN);
