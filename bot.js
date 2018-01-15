@@ -21,12 +21,7 @@ client.on('message', msg => {
   if (msg.content.toLowerCase() === 'sea') {
     msg.reply('Aleyküm Selam :raised_hand:');
   }
- 
- client.on('message', msg => {
-  if (msg.content.toLowerCase() === 'Seni kim tasarladı') {
-    msg.reply('Fabrodo#5516 Beni Tasarladı Onu Arkadaş Olarak Ekleyebilirsin!');
-  }
- 
+
 client.on('message', msg => {
   if (msg.content.toLowerCase() === 'amk') {
     msg.reply('Aaaa Çok Ayıp!!');
