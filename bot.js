@@ -21,9 +21,21 @@ client.on('message', msg => {
   if (msg.content.toLowerCase() === 'sea') {
     msg.reply('Aleyküm Selam :raised_hand:');
   }
+ 
+  if (msg.content.toLowerCase() === 'naber') {
+    msg.reply('Güzel');
+  }
+ 
+  if (msg.content.toLowerCase() === 'havalar çokmu soğuk') {
+    msg.reply('Havalar çok soğuk Gladyatör bot üşüyor');
+  }
+ 
+  if (msg.content.toLowerCase() === 'naber') {
+    msg.reply('İyidir Senden Naber? :blush:');
+  }
 
   client.user.setStatus('dnd')
-  client.user.setGame('Beni Fabrodo Yarattı :)', 'https://www.twitch.tv/jahrein');
+  client.user.setGame('Kendimi Çok Seviyorum', 'https://www.twitch.tv/jahrein');
 
 });
  
