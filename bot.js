@@ -21,16 +21,16 @@ client.on('message', msg => {
   if (msg.content.toLowerCase() === 'sea') {
     msg.reply('Aleyküm Selam :raised_hand:');
   }
- 
-  if (msg.content.toLowerCase() === 'naber') {
-    msg.reply('Güzel senden naber ?');
-  }
- 
+
   if (msg.content.toLowerCase() === 'bende iyi') {
     msg.reply('Hep Böyle Kal :)');
   }
   
   if (msg.content.toLowerCase() === 'ben kötüyüm') {
+    msg.reply('Üzme Kendini, Geçer');
+  }
+  
+  if (msg.content.toLowerCase() === 'bende kötüyüm') {
     msg.reply('Üzme Kendini, Geçer');
   }
  
@@ -47,7 +47,7 @@ client.on('message', msg => {
   }
 
   client.user.setStatus('dnd')
-  client.user.setGame('Benle Sohbet Etmek İstermisin?', 'https://www.twitch.tv/jahrein');
+  client.user.setGame('Geliştirme Aşamasındayım :)', 'https://www.twitch.tv/jahrein');
 
 });
  
