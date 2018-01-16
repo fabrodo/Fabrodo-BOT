@@ -3,8 +3,11 @@ const client = new Discord.Client();
  
 client.on('ready', () => {
   console.log(`Bot ${client.user.tag} adı ile giriş yaptı!`);
-});
+
+  client.user.setStatus('dnd')
+  client.user.setGame('Geliştirme Aşamasındayım :)', 'https://www.twitch.tv/jahrein');
  
+});
 client.on('message', msg => {
   if (msg.content === 'ping') {
     msg.reply('Pong!');
@@ -61,9 +64,6 @@ client.on('message', msg => {
   if (msg.content.startsWith(ananı sikerim)) {
     msg.reply('Küfür Etmemelisin!!');
   }
-
-  client.user.setStatus('dnd')
-  client.user.setGame('Geliştirme Aşamasındayım :)', 'https://www.twitch.tv/jahrein');
 
 });
  
