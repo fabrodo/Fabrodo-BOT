@@ -60,6 +60,7 @@ client.on('message', msg => {
   if (msg.content.startsWith(ananı sikerim)) {
     msg.reply('Küfür Etmemelisin!!');
   }
+
 client.user.setStatus('dnd')
   client.user.setGame('Geliştirme Aşamasındayım :)', 'https://www.twitch.tv/jahrein');
 
