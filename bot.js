@@ -23,19 +23,31 @@ client.on('message', msg => {
   }
  
   if (msg.content.toLowerCase() === 'naber') {
-    msg.reply('Güzel');
+    msg.reply('Güzel senden naber ?');
   }
  
-  if (msg.content.toLowerCase() === 'havalar çokmu soğuk') {
-    msg.reply('Havalar çok soğuk Gladyatör bot üşüyor');
+  if (msg.content.toLowerCase() === 'bende iyi') {
+    msg.reply('Hep Böyle Kal :)');
+  }
+  
+  if (msg.content.toLowerCase() === 'ben kötüyüm') {
+    msg.reply('Üzme Kendini, Geçer');
   }
  
   if (msg.content.toLowerCase() === 'naber') {
-    msg.reply('İyidir Senden Naber? :blush:');
+    msg.reply('Güzel senden naber ?');
+  }
+ 
+  if (msg.content.toLowerCase() === 'nbr') {
+    msg.reply('Güzel senden naber ?');
+  }
+
+  if (msg.content.toLowerCase() === 'havalar çokmu soğuk') {
+    msg.reply('Havalar çok soğuk Gladyatör bot üşüyor');
   }
 
   client.user.setStatus('dnd')
-  client.user.setGame('Kendimi Çok Seviyorum', 'https://www.twitch.tv/jahrein');
+  client.user.setGame('Benle Sohbet Etmek İstermisin?', 'https://www.twitch.tv/jahrein');
 
 });
  
