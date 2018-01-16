@@ -49,6 +49,7 @@ client.on('message', msg => {
   if (msg.content.startsWith(oc)) {
     msg.reply('Küfür Etmemelisin!!');
   }
+
   if (msg.content.startsWith(amk)) {
     msg.reply('Küfür Etmemelisin!!');
   }
@@ -61,7 +62,7 @@ client.on('message', msg => {
     msg.reply('Küfür Etmemelisin!!');
   }
 
-client.user.setStatus('dnd')
+  client.user.setStatus('dnd')
   client.user.setGame('Geliştirme Aşamasındayım :)', 'https://www.twitch.tv/jahrein');
 
 });
