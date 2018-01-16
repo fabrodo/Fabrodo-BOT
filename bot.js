@@ -46,8 +46,22 @@ client.on('message', msg => {
     msg.reply('Havalar çok soğuk Gladyatör bot üşüyor');
   }
 
+  if (msg.content.startsWith(oc)) {
+    msg.reply('Küfür Etmemelisin!!');
+  }
+  if (msg.content.startsWith(amk)) {
+    msg.reply('Küfür Etmemelisin!!');
+  }
+
+  if (msg.content.startsWith(oç)) {
+    msg.reply('Küfür Etmemelisin!!');
+  }
   client.user.setStatus('dnd')
   client.user.setGame('Geliştirme Aşamasındayım :)', 'https://www.twitch.tv/jahrein');
+
+  if (msg.content.startsWith(ananı sikerim)) {
+    msg.reply('Küfür Etmemelisin!!');
+  }
 
 });
  
