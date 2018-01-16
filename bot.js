@@ -1,6 +1,17 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
- 
+
+
+var küfür1 = 'amk'
+var küfür2 = 'oç'
+var küfür3 = 'oc';
+var küfür4 = 'ananı sikerim';
+
+
+client.user.setStatus('dnd')
+  client.user.setGame('Geliştirme Aşamasıdayım!', 'https://www.twitch.tv/jahrein');
+
+
 client.on('ready', () => {
   console.log(`Bot ${client.user.tag} adı ile giriş yaptı!`);
  
@@ -47,19 +58,19 @@ client.on('message', msg => {
     msg.reply('Havalar çok soğuk Gladyatör bot üşüyor');
   }
 
-  if (msg.content.startsWith(oc)) {
+  if (msg.content.startsWith(küfür3)) {
     msg.reply('Küfür Etmemelisin!!');
   }
 
-  if (msg.content.startsWith(amk)) {
+  if (msg.content.startsWith(küfür1)) {
     msg.reply('Küfür Etmemelisin!!');
   }
 
-  if (msg.content.startsWith(oç)) {
+  if (msg.content.startsWith(küfür2)) {
     msg.reply('Küfür Etmemelisin!!');
   }
 
-  if (msg.content.startsWith(ananı sikerim)) {
+  if (msg.content.startsWith(küfür4)) {
     msg.reply('Küfür Etmemelisin!!');
   }
 
