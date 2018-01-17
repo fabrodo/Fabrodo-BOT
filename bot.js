@@ -3,7 +3,7 @@ const client = new Discord.Client();
 
 
   client.user.setStatus('dnd')
-  client.user.setGame('Kendime Güzel Bayan Arıyorum', 'https://www.twitch.tv/jahrein');
+  client.user.setGame('0.0.1 version Bayan Botları Bekliyorum', 'https://www.twitch.tv/jahrein');
 
 });
 
@@ -43,18 +43,6 @@ client.on('message', msg => {
  
   if (msg.content.toLowerCase() === 'nbr') {
     msg.reply('Güzel senden naber ?');
-  }
-
-  if (msg.content.toLowerCase() === 'amk') {
-    msg.reply('Küfür Etmemelisin!!');
-  }
-
-  if (msg.content.toLowerCase() === 'oç') {
-    msg.reply('Küfür Etmemelisin!!');
-  }
-
-  if (msg.content.toLowerCase() === 'oc') {
-    msg.reply('Küfür Etmemelisin!!');
   }
 
 });
