@@ -2,12 +2,6 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 
-var küfür1 = 'amk'
-var küfür2 = 'oç'
-var küfür3 = 'oc';
-var küfür4 = 'ananı sikerim';
-
-
 client.user.setStatus('dnd')
   client.user.setGame('Geliştirme Aşamasıdayım!', 'https://www.twitch.tv/jahrein');
 
@@ -54,23 +48,15 @@ client.on('message', msg => {
     msg.reply('Güzel senden naber ?');
   }
 
-  if (msg.content.toLowerCase() === 'havalar çokmu soğuk') {
-    msg.reply('Havalar çok soğuk Gladyatör bot üşüyor');
-  }
-
-  if (msg.content.startsWith(küfür3)) {
+  if (msg.content.toLowerCase() === 'amk') {
     msg.reply('Küfür Etmemelisin!!');
   }
 
-  if (msg.content.startsWith(küfür1)) {
+  if (msg.content.toLowerCase() === 'oç') {
     msg.reply('Küfür Etmemelisin!!');
   }
 
-  if (msg.content.startsWith(küfür2)) {
-    msg.reply('Küfür Etmemelisin!!');
-  }
-
-  if (msg.content.startsWith(küfür4)) {
+  if (msg.content.toLowerCase() === 'oc') {
     msg.reply('Küfür Etmemelisin!!');
   }
 
