@@ -2,14 +2,11 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 
-client.user.setStatus('dnd')
-  client.user.setGame('Geliştirme Aşamasıdayım!', 'https://www.twitch.tv/jahrein');
+  client.user.setStatus('dnd')
+  client.user.setGame('Kendime Güzel Bayan Arıyorum', 'https://www.twitch.tv/jahrein');
 
-
-client.on('ready', () => {
-  console.log(`Bot ${client.user.tag} adı ile giriş yaptı!`);
- 
 });
+
 
 client.on('message', msg => {
   if (msg.content === 'ping') {
